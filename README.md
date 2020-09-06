@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LinkedIn-like Messaging App with React and TalkJS
 
-## Available Scripts
+### Context
+This directory contains an files for an application that emulates the messaging part of LinkedIn. It serves to show how Chat can be integrated into an application using TalkJS.
 
-In the project directory, you can run:
+The app consists three parts:
+<ul>
+  <li>Login: This is the entry point of the app, where the basic data of the current user is collected</li>
+  <li>My Network: This is similar to the "My Network" of LinkedIn. It displays a list of users. Each user has a "Message" button which you can use to start a conversation with the user. On click of the "Message button", a chatbox pops up to the right of the screen just like it is on LinkedIn</li>
+  <li>Messaging: This is similar to the Messaging part of the LinkedIn app. All conversations a user has with other users appear here. </li>
+</ul>
 
-### `npm start`
+### Requirements
+To get this app running on your system, ensure that you are working with Node >= version 6 and npm >= version 5.2.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Getting Started
+Here are the steps to get this app running on your system.
+<ol>  
+  <li>Clone or download this app</li>
+  <li>Run `npm install`</li>
+  <li>In the `Messaging.js` file, replace "MY_APP_ID" on line 30 with your APP ID gotten from your TalkJS dashboard at at https://talkjs.com/dashboard/login. Do the same thing in the `MyNetwork.js` file on line 25.</li>
+  <li>Run `npm start`</li>
+</ol>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### More Information
+For more information on how to integrate TalkJS into your projects, check out our [documentation](https://talkjs.com/docs).
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
